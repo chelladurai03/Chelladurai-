@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="icon" href="./02.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="bg-success text-white text-center py-5">
+        <h1>Chelladurai P </P></h1>
+        <p>Web Developer | Designer | Coder</p> 
+        <a href="#about" class="btn border rounded-pill border-dark bg-dark text-white">read more</a>
+    </header>
+    
+    <section id="about" class="container my-5">
+        <h2>About Me</h2>
+        <div class="card" style="width: 150px;">
+        <img src="data:image/jpeg;base64,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" class="card-img-top" alt="card image">
+        <p>P Chelladurai</p>
+        <p>Web Developer</p>
+    </section>
+
+    <section id="skills" class="container my-5">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Bootstrap</li>
+            <li>Python</li>
+        </ul>
+    </section>
+    
+    <section id="contact" class="container my-5">
+        <h2>Contact</h2>
+ <li>
+    Contact me at <a href="mailto:"chelladuraichelladurai47@gmail.com>my email  address</a>
+ <li>
+    Dial <a href="tel:+8838689411"> my phone number
+ </li>
+ <a href="https://www.instagram.com/__.mythrish.0310?igsh=MWh3Znl4dG4zY29pNw==" class="btn border rounded-pill border-dark bg-dark text-white">Click here to go to website</a>
+ <a href="https://photos.app.goo.gl/eqih1beE7wada1e28"class="btn border rounded-pill border-dark bg-dark text-white">Click here to see image </a>
+   </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Chelladurai P. All rights reserved.</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
